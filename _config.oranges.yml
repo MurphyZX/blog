@@ -148,10 +148,10 @@ footer:
       name: github
       icon: github
       path: https://github.com/MurphyZX
-    # -
-    #   name: email
-    #   icon: envelope
-    #   path: 
+    -
+      name: email
+      icon: envelope
+      path: zhangxu@conse.dev
     # -
     #   name: facebook
     #   icon: facebooksquare
