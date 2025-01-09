@@ -183,11 +183,14 @@ footer:
       name: 陇ICP备2021000453号-1
       path: https://beian.miit.gov.cn/
     -
-      name: Copyright © {thisYear} Oranges
-      path: https://github.com/zchengsite/hexo-theme-oranges
+      name: Copyright © {thisYear} mio
+      path: /
     -
-      name: Theme by Oranges | Powered by Hexo
-      path: https://github.com/zchengsite/hexo-theme-oranges
+      name: El Psy Kongroo
+      path:
+#    -
+#      name: Theme by Oranges | Powered by Hexo
+#      path: https://github.com/zchengsite/hexo-theme-oranges
 
   # 浏览量统计
   # http://busuanzi.ibruce.info/
