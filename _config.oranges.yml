@@ -147,7 +147,7 @@ footer:
     -
       name: github
       icon: github
-      path: https://github.com/zchengsite/hexo-theme-oranges
+      path: https://github.com/MurphyZX
     # -
     #   name: email
     #   icon: envelope
@@ -192,7 +192,7 @@ footer:
   # 浏览量统计
   # http://busuanzi.ibruce.info/
   views:
-    enable: true
+    enable: false
     provider: '//cn.vercount.one/js'
     item:
       -

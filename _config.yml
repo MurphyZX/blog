@@ -126,3 +126,8 @@ search:
   path: search.xml
   field: post
   content: true
+
+permalink_pinyin:
+  enable: true
+  separator: "-"
+  #exclude: #排除的文章，排出后不会进行转义
