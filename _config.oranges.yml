@@ -124,12 +124,14 @@ friends:
   # site: 地址
   # meta: 描述
   -
-    nickname: Zcheng
-    site: https://zcheng.site/
+    nickname: jiangyinghui
+    site: https://jiangyinghui.cn/
     meta:
-  -
-    nickname: Hexo
-    site: https://hexo.io/
+  - nickname: conse001
+    site: https://conse.dev/
+    meta:
+  - nickname: conse002
+    site: https://conse.me/
     meta:
 
 # 页脚信息
@@ -178,6 +180,9 @@ footer:
     # 一般用来显示根据各种场景需要切换的文本，如时间年份
     # 如：{thisYear} 会被替换为今年年份
     -
+      name: 陇ICP备2021000453号-1
+      path: https://beian.miit.gov.cn/
+    -
       name: Copyright © {thisYear} Oranges
       path: https://github.com/zchengsite/hexo-theme-oranges
     -
@@ -187,7 +192,7 @@ footer:
   # 浏览量统计
   # http://busuanzi.ibruce.info/
   views:
-    enable: false
+    enable: true
     provider: '//cn.vercount.one/js'
     item:
       -
