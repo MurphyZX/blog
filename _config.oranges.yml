@@ -105,7 +105,7 @@ navbar:
     path: /friends/
     key: friends
   -
-    name: 关于我
+    name: 关于
     enable: true
     path: /about/
     key: about
@@ -288,4 +288,4 @@ cdns:
       url: https://cdn.jsdelivr.net/npm/@waline/client@2.5.1/dist/legacy.min.js
 
 # 主题色
-themeColor: '#808080'
+themeColor: '#ed7d32'
