@@ -133,6 +133,9 @@ friends:
   - nickname: conse002
     site: https://conse.me/
     meta:
+  - nickname: conse003
+    site: https://liamm.cn/
+    meta:
 
 # 页脚信息
 footer:
