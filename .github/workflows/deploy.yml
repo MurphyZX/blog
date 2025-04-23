@@ -20,10 +20,12 @@ jobs:
           node-version: 18.20.4
       - name: npm install
         run: |
+          echo "Installing Hexo CLI globally..."
           npm install -g hexo-cli
+          echo "Installing project dependencies..."
           npm install
         env:
-         CI: true
+          CI: true
       - name: hexo build
         run: |
           hexo clean
