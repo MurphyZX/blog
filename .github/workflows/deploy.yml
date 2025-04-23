@@ -31,7 +31,7 @@ jobs:
         env:
           CI: true
       - name: Deploy
-        uses: easingthemes/ssh-deploy@@main
+        uses: easingthemes/ssh-deploy@main
         env:
           SSH_PRIVATE_KEY: ${{ secrets.ACCESS_TOKEN }}
           ARGS: "-avz --delete"
