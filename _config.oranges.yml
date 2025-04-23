@@ -125,16 +125,16 @@ friends:
   # meta: 描述
   -
     nickname: jyh
-    site: https://shiglow.cn
+    site: https://shiglow.cn/
     meta:
   - nickname: conse001
-    site: https://conse.dev
+    site: https://conse.dev/
     meta:
   - nickname: conse002
-    site: https://conse.me
+    site: https://conse.me/
     meta:
   - nickname: conse003
-    site: https://liamm.cn
+    site: https://liamm.cn/
     meta:
 
 # 页脚信息
