@@ -49,5 +49,5 @@ jobs:
           endpoint: oss-cn-chengdu.aliyuncs.com
           bucket: blog-liammm
           assets: |
-            public/**:/**
+            public/**:/
 
