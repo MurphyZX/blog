@@ -28,9 +28,7 @@ jobs:
           CI: true
       - name: hexo build
         run: |
-          hexo clean
-          hexo generate
-          hexo deploy
+          npm run go
         env:
           CI: true
       - name: List files
