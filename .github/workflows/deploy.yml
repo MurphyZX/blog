@@ -35,7 +35,7 @@ jobs:
         run: ls -la public/
       - name: Deploy
         uses: easingthemes/ssh-deploy@v5.1.0
-        env:
+        with:
           SSH_PRIVATE_KEY: ${{ secrets.ACCESS_TOKEN }}
           ARGS: "-avz --delete"
           SOURCE: "public/"
