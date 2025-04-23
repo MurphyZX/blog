@@ -40,3 +40,14 @@ jobs:
           REMOTE_PORT: ${{ secrets.REMOTE_PORT }}
           REMOTE_USER: ${{ secrets.REMOTE_USER }}
           TARGET: ${{ secrets.TARGET }}
+      - name: Upload to oss
+        id: upload_to_oss
+        uses: tvrcgo/oss-action@master
+        with:
+          key-id: ${{ secrets.OSS_KEY_ID }}
+          key-secret: ${{ secrets.OSS_KEY_SECRET }}
+          endpoint: oss-cn-chengdu.aliyuncs.com
+          bucket: blog-liammm
+          assets: |
+            public/**:/**
+
