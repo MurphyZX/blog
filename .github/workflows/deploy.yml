@@ -14,10 +14,10 @@ jobs:
     steps: 
       - name: checkout
         uses: actions/checkout@master
-      - name: use Node 20
+      - name: use Node 18.20.4
         uses: actions/setup-node@v1
         with: 
-          node-version: 20
+          node-version: 18.20.4
       - name: npm install
         run: |
           npm install -g hexo-cli
