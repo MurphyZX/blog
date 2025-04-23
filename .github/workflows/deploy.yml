@@ -30,6 +30,8 @@ jobs:
           hexo generate
         env:
           CI: true
+      - name: List files
+        run: ls -la public/
       - name: Deploy
         uses: easingthemes/ssh-deploy@main
         env:
