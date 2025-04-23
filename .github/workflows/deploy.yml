@@ -14,10 +14,10 @@ jobs:
     steps: 
       - name: checkout
         uses: actions/checkout@master
-      - name: use Node 18.20.4
+      - name: use Node 18
         uses: actions/setup-node@v1
         with: 
-          node-version: 18.20.4
+          node-version: 18
       - name: npm install
         run: |
           echo "Installing Hexo CLI globally..."
@@ -35,7 +35,7 @@ jobs:
       - name: List files
         run: ls -la public/
       - name: Deploy
-        uses: easingthemes/ssh-deploy@main
+        uses: easingthemes/ssh-deploy@v2.0.7
         env:
           SSH_PRIVATE_KEY: ${{ secrets.ACCESS_TOKEN }}
           ARGS: "-av --delete"
