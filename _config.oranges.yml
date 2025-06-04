@@ -185,6 +185,9 @@ footer:
     -
       name: 陇ICP备2021000453号-1
       path: https://beian.miit.gov.cn/
+
+    - name: 甘公网安备62010302001574号
+      path: https://beian.mps.gov.cn/#/query/webSearch?code=62010302001574/
     -
       name: Copyright © {thisYear} mio
       path: /
